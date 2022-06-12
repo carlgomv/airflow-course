@@ -32,7 +32,7 @@ Para recuperar los recursos utilizados por este entorno podemos arrojar el sigui
 ```shell
 docker-compose down --volumes --remove-orphans
 ```
-Esto va a ser que se borren todos los datos de la db de Airflow, por eso hay que usar este comando con precaución.
+Esto va hacer que se borren todos los datos de la db de Airflow, por eso hay que usar este comando con precaución.
 Si lo que se desea es pausar los servicios cuando terminamos una práctica, solo tenemos que arrojar este comando:
 ```shell
 docker-compose down
